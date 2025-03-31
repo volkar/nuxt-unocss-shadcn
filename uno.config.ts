@@ -1,4 +1,4 @@
-import { defineConfig, presetAttributify, presetIcons, presetTypography, presetWebFonts, presetWind4, transformerDirectives, transformerVariantGroup } from "unocss"
+import { defineConfig, presetAttributify, presetIcons, presetTypography, presetWebFonts, presetWind3, presetWind4, transformerDirectives, transformerVariantGroup } from "unocss"
 import presetAnimations from "unocss-preset-animations"
 import { presetShadcn } from "unocss-preset-shadcn"
 
@@ -12,6 +12,7 @@ export default defineConfig({
 		},
 	},
 	presets: [
+		presetWind3(),
 		presetWind4(),
 		presetAnimations(),
 		presetAttributify(),
